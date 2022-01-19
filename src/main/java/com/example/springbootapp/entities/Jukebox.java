@@ -5,9 +5,6 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
-@Table
-
 public class Jukebox {
     @Id
     private String id;

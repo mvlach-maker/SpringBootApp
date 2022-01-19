@@ -22,7 +22,7 @@ public class JukeConfig {
             Jukebox fusion = new Jukebox
                     ("123","fusion");
             Jukebox angelina = new Jukebox("456", "angelina");
-            jukeRepository.saveAll(List.of(fusion, angelina));
+            // jukeRepository.saveAll(List.of(fusion, angelina));
         };
     }
 

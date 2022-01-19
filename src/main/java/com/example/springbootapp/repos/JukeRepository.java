@@ -10,6 +10,5 @@ import java.util.List;
 @Repository
 public interface JukeRepository extends JpaRepository<Jukebox, String> {
 
-    public List<Jukebox> findBySetting(String settingId);
 
 }
